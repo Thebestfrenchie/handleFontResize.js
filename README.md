@@ -11,6 +11,8 @@ I built handleFontResize.js to work on 'keyup' event handlers, but it should wor
 jQuery:
 <code>$('YourSelectorHere').keyup(**{'maxFontSize':60,'paddingWidth':50},handleFontResize**);</code>
 
+Live demo available [here](http://thebestfrenchie.github.io/handleFontResize.js/).
+
 
 ## How does it work
 

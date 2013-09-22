@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+    <script src="./src/handleFontResize.js" type="text/javascript"></script>
+
+    <style>
+        input {
+            width:200px;
+            height:100px; 
+            font-size: 60px;
+        }
+
+        ::-webkit-input-placeholder{
+        font-size: 55px;
+        line-height: 100px;
+        height: 70px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <input type="text" placeholder="Resize...">
+</body>
+
+<script>
+$('input').keyup({'maxFontSize':60,'paddingWidth':5},handleFontResize);
+</script>
+
+
+
+</html>
